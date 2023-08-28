@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="eugene, cv, summary">
+  <meta name="description" content="Это сайт - резюме Евгения Кима">
+  <title>My Summary</title>
+  <link rel="stylesheet" href="/eugene_summary/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="info">
+      <img src="/eugene_summary/img/my_photo.jpg" alt="My photo" class="avatar">
+
+      <div class="info-text">
+        <div class="info-text-title">
+          <h1>Евгений Ким</h1>
+          <p>Я начинающий Frontend-разработчик</p>
+          <p>Я люблю изучать программирование, английский язык</p>
+        </div>
+
+        <div class="info-text-description">
+          <h4>Список социальных сетей:</h4>
+          <p class="hobbies"><a href="https://github.com/eugene2802" target="_blank">GitHub</a> | <a href="https://t.me/keyjey2802"
+              target="_blank">Telegram</a> | <a href="https://qna.habr.com/user/keyjey2802" target="_blank">Habr</a></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card bg-aquamarine">
+      <h2>Мои хобби</h2>
+      <ul class="list">
+        <li>Английский язык</li>
+        <li>Футбол</li>
+        <li>Программирование</li>
+        <li>Путешествие</li>
+      </ul>
+    </div>
+
+    <div class="card bg-mediumpurple">
+      <h2>Опыт работы</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>ООО "ПБ СБ"</td>
+            <td>Инженер ПТО</td>
+            <td>2017 - 2018</td>
+          </tr>
+          <tr>
+            <td>ООО "Прогресс Энерго"</td>
+            <td>Инженер ПТО</td>
+            <td>2017 - 2018</td>
+          </tr>
+          <tr>
+            <td>ООО "ЭнергоИнвест"</td>
+            <td>Инженер ПТО</td>
+            <td>2018 - 2019</td>
+          </tr>
+          <tr>
+            <td>ООО "ПБС"</td>
+            <td>Инженер ПДО</td>
+            <td>2023 - сейчас</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card bg-mistyrose">
+      <form class="form">
+        <h2>Связаться со мной</h2>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" placeholder="Введите имя" id="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Ваш Email:</label>
+            <input type="email" placeholder="Введите Email" id="email">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea name="" id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+
+        <button type="submit" class="btn">Отправить!</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

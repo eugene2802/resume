@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Prism&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #f1f1f1;
+  color: #0f141e;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding: 20px;
+}
+
+.avatar {
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.info {
+  display: flex;
+}
+
+
+.info-text {
+  margin-left: 40px;
+}
+
+@media (max-width: 698px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+
+  .info-text {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #86898f;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  padding: 30px 10px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35)
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding-left: 30px;
+}
+
+.list li:hover {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.bg-aquamarine {
+  background-color: #7FFFD4;
+}
+
+.bg-mediumpurple {
+  background-color: #9370DB;
+}
+
+.bg-mistyrose {
+  background-color: #FFE4E1;
+}
+
+input {
+  padding: 2px;
+  border-radius: 5px;
+}
+
+textarea {
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #333;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn:hover {
+  background-color: #86898f;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: orange;
+}
+
+/* a:visited {
+  color: #9370DB;
+} */
+
+.table {
+  width: 100%;
+  text-align: left;
+}
+
+.table tbody td:hover {
+  background-color: #b795fb;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-row .form-group {
+  width: 50%;
+  justify-content: space-between;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #000;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.form-group textarea {
+  margin-bottom: 10px;
+}
